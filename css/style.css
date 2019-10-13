@@ -1645,4 +1645,13 @@ ul.countdown li {
     font-size: 20px;
     margin-top: 5px; } }
 
+.icon-upwork{
+  background: url('https://www.upwork.com/favicon.ico');
+  width: 20px;
+  height: 18px;
+  display: block;
+  background-size: cover;
+  background-position: center;
+}
+
 /*# sourceMappingURL=style.css.map */
