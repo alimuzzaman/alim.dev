@@ -4,4 +4,4 @@ deployment:
   - export DEPLOYPATH=/home/tufarmlh/alim.dev/
   - /bin/rm -Rf $DEPLOYPATH
   - /bin/mkdir $DEPLOYPATH
-  - /bin/cp -R src/ $DEPLOYPATH
+  - /bin/cp -R ./ $DEPLOYPATH
