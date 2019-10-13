@@ -243,11 +243,34 @@ $(function() {
         // CountDown for coming soon page
             if ($(".countdown").length !== 0) {
                 $(".countdown").countdown({
-                    date: "01 Jan 2021 00:01:00", //set your date and time. EX: 15 May 2014 12:00:00
+                    date: "13 Nov 2019 00:00:00", //set your date and time. EX: 15 May 2014 12:00:00
                     format: "on"
                 });
             }
            
+        // Mail configuration
+        // 
+        var mailform = $('.mailform');
+        var changeHref = function(){
+            var name    = mailform.find('input[name=name]').val();
+            var phone   = mailform.find('input[name=phone]').val();
+            var email   = mailform.find('input[name=email]').val();
+            var subject = mailform.find('input[name=subject]').val();
+            var message = mailform.find('textarea[name=message]').val();
+
+            var body = encodeURI(
+                                'Name:   ' + name + 
+                                '\nPhone: ' + phone + 
+                                '\nEmail:  ' + email + 
+                                '\n\n' + 
+                                message +
+                                '\n\n' 
+                            );
+
+            $('#mailto').attr('href', 'mailto:alimuzzamanalim@gmail.com?subject=' + encodeURI(subject) + '&body=' + body);
+        }
+        mailform.find('input[type=input], textarea').on('change', changeHref);
+        $('#mailto').on('click', changeHref);
     });
 
 });
