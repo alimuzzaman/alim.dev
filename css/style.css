@@ -1646,12 +1646,16 @@ ul.countdown li {
     margin-top: 5px; } }
 
 .icon-upwork{
-  background: url('https://www.upwork.com/favicon.ico');
-  width: 20px;
+  background: url('../img/upwork-logo.png');
+  width: 25px;
   height: 18px;
   display: block;
   background-size: cover;
-  background-position: center;
+  background-position: left top;
+}
+
+.icon-upwork:hover{
+  background-position: right top;
 }
 
 /*# sourceMappingURL=style.css.map */

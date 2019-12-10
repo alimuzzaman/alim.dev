@@ -2214,3 +2214,16 @@ ul.countdown li {
   }
 
  }
+
+ .icon-upwork{
+  background: url('../img/upwork-logo.png');
+  width: 25px;
+  height: 18px;
+  display: block;
+  background-size: cover;
+  background-position: left top;
+}
+
+.icon-upwork:hover{
+  background-position: right top;
+}
