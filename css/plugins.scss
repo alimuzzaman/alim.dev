@@ -12,29 +12,29 @@
 -----------------------------------------------------------------*/
 
 /* == bootstrap == */
-@import url("plugins/bootstrap.min.css");
+@import "plugins/bootstrap.min";
 
 /* == animate Headline == */
-@import url("plugins/animate.css");
+@import "plugins/animate";
 
 /* == et-line icon font == */
-@import url("plugins/et-line.css");
+@import "plugins/et-line";
 
 /* == icofont icon font == */
-@import url("plugins/icofont.css");
+@import "plugins/icofont";
 
 /* == fontawesome icon font == */
-@import url("plugins/fontawesome-all.min.css");
+@import "plugins/fontawesome-all.min";
 
 /* == magnific-popup == */
-@import url("plugins/magnific-popup.css");
+@import "plugins/magnific-popup";
 
 /* == owl.carousel == */
-@import url("plugins/owl.carousel.min.css");
-@import url("plugins/owl.theme.default.min.css");
+@import "plugins/owl.carousel.min";
+@import "plugins/owl.theme.default.min";
 
 /* == helper classes == */
-@import url("plugins/helper.css");
+@import "plugins/helper";
 
 /* == contact form classes == */
-@import url("plugins/mailform.css");
+@import "plugins/mailform";
